@@ -1,13 +1,14 @@
+import Header from './components/Header'
+import Footer from './components/Footer'
+import HomePage from './components/HomePage'
 import './App.css'
 
-function App() {
-
+export default function App() {
   return (
-    <div>
-      <h1>Der Spanische Traum</h1>
-      <h2>Traditionelles spanisches Essen</h2>
-    </div>
+    <>
+      <Header />
+      <HomePage />
+      <Footer />
+    </>
   )
 }
-
-export default App
