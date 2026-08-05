@@ -1,4 +1,4 @@
-import { contactInfo } from "../assets/data.js"
+import { contactInfo } from "../../../../assets/data.js"
 
 export default function FooterKontakt() {
     return (

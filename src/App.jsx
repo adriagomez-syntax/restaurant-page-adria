@@ -1,6 +1,6 @@
-import Header from './components/Header'
-import Footer from './components/Footer'
-import HomePage from './components/HomePage'
+import Header from './components/common/header/Header'
+import Footer from './components/common/footer/Footer'
+import HomePage from './components/home/HomePage'
 import './App.css'
 
 export default function App() {

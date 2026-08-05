@@ -1,7 +1,7 @@
 export default function Logo() {
     return (
         <>
-            <a href="#Startseite">
+            <a href="#Home">
                 <img src="#logo" alt="Der Spanische Traum"/>
             </a>
         </>

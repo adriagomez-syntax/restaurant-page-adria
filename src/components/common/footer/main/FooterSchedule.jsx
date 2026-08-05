@@ -1,4 +1,4 @@
-import { openingHours } from '../assets/data.js'
+import { openingHours } from '../../../../assets/data.js'
 
 export default function FooterSchedule() {
     return (

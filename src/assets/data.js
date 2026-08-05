@@ -1,10 +1,10 @@
 export const pageList = [
-  "Startseite",
-  "Speisekarte",
-  "Über uns",
-  "Galerie",
-  "Kontakt",
-  "Reservierung"
+  { name: "Startseite", href: "#Home" },
+  { name: "Speisekarte", href: "#Menu" },
+  { name: "Über uns", href: "#About" },
+  { name: "Galerie", href: "#Gallery" },
+  { name: "Kontakt", href: "#Contact" },
+  { name: "Reservierung", href: "#Reservation" }
 ]
 
 export const openingHours = [

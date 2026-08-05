@@ -1,4 +1,4 @@
-import { pageList } from '../assets/data'
+import { pageList } from '../../../../assets/data'
 
 export default function FooterNavigation() {
     return (
@@ -6,8 +6,8 @@ export default function FooterNavigation() {
             <h3>Navigation</h3>
             <ul>
                 {pageList.map((page) => (
-                    <li key={page}>
-                        <a href={`#${page.toLowerCase()}`}>{page}</a>
+                    <li key={page.href}>
+                        <a href={page.href}>{page.name}</a>
                     </li>
                 ))}
             </ul>

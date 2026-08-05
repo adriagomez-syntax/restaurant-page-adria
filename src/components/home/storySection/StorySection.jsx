@@ -1,8 +1,8 @@
 import StoryYears from "./StoryYears";
 import StorySlogan from "./StorySlogan";
 import StoryResume from "./StoryResume";
-import Button from "./Button";
-import storyImage from '../assets/Foto2.jpg'
+import Button from "../../common/Button";
+import storyImage from "../../../assets/images/Foto2.jpg"
 
 export default function StorySection() {
     return (
@@ -12,7 +12,7 @@ export default function StorySection() {
             <h3>Unsere Geschichte</h3>
             <StorySlogan />
             <StoryResume />
-            <Button text="Mehr über uns" onClick={() => { window.location = "#Über uns" }} />
+            <Button text="Mehr über uns" onClick={() => { window.location = "#About" }} />
         </section>
     )
 }
