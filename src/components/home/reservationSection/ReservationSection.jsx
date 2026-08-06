@@ -4,7 +4,7 @@ import Section from "../../common/utils/Section";
 export default function ReservierungSection() {
     return (
         <Section className="bg-purple min-h-[50vh] flex-col gap-8 justify-center items-center">
-            <div className="text-dark text-center font-light text-3xl">
+            <div className="text-dark text-center font-light text-3xl md:text-5xl">
                 <h3>Erleben Sie Spanien</h3> 
                 <h3 className="italic">heute Abend</h3>
             </div>
