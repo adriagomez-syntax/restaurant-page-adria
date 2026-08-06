@@ -1,7 +1,7 @@
 import StoryYears from "./StoryYears";
 import StorySlogan from "./StorySlogan";
 import StoryResume from "./StoryResume";
-import Button from "../../common/Button";
+import Button from "../../common/utils/Button";
 import storyImage from "../../../assets/images/Foto2.jpg"
 
 export default function StorySection() {

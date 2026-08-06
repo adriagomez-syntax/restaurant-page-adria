@@ -1,4 +1,4 @@
-import Button from "../../common/Button";
+import Button from "../../common/utils/Button";
 
 export default function ReservierungSection() {
     return (

@@ -6,7 +6,7 @@ import ScheduleSection from './scheduleSection/ScheduleSection'
 
 export default function HomePage() {
     return (
-        <main className="flex flex-col flex-1 p-4">
+        <main className="flex flex-col flex-1">
             <HeroSection />
             <InfoSection />
             <StorySection />

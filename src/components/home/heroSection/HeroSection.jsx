@@ -1,16 +1,15 @@
-import Button from "../../common/Button";
 import HeroImage from "./HeroImage";
 import RestaurantName from "./RestaurantName";
 import WelcomeText from "./WelcomeText";
+import HeroButtons from "./HeroButtons";
 
 export default function HeroSection() {
     return (
-        <section>
+        <section className="flex-1 min-h-screen flex flex-col justify-end p-4 md:p-8 mt-15 pb-15">
             <HeroImage />
             <RestaurantName />
             <WelcomeText />
-            <Button text="Tisch Reservieren" onClick={() => {window.location = "#Reservation"}} />
-            <Button text="Speisekarte Ansehen" onClick={() => {window.location = "#Menu"}} />
+            <HeroButtons />
         </section>
     )
 }
