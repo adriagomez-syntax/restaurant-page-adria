@@ -5,7 +5,7 @@ import HeroButtons from "./HeroButtons";
 
 export default function HeroSection() {
     return (
-        <section className="flex-1 min-h-screen flex flex-col justify-end p-4 md:p-8 mt-15 pb-15">
+        <section className="flex-1 min-h-screen flex flex-col justify-end p-4 md:p-8 pb-15">
             <HeroImage />
             <RestaurantName />
             <WelcomeText />
