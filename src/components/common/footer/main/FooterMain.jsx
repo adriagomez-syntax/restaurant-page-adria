@@ -5,7 +5,7 @@ import FooterSchedule from "./FooterSchedule";
 
 export default function FooterMain() {
     return (
-        <div>
+        <div className="flex-1 border-b border-dark-mid flex flex-col md:flex-row justify-between gap-8 p-4 pb-8">
             <FooterMedia />
             <FooterNavigation />
             <FooterKontakt />

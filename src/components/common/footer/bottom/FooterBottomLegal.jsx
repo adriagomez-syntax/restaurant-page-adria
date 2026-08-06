@@ -1,17 +1,19 @@
+import FooterBottomLegalLink from "./FooterBottomLegalLink"
+
+const legalLinks = [
+    { name: "Impressum", href: "/#" },
+    { name: "Datenschutz", href: "/#" },
+    { name: "AGB", href: "/#" },
+]
+
 export default function FooterBottomLegal() {
     return (
-        <div>
-            <ul>
-                <li>
-                    <a href="/#">Impressum</a>
+        <ul className="flex flex-row gap-4">
+            {legalLinks.map((link) => (
+                <li key={link.name}>
+                    <FooterBottomLegalLink name={link.name} href={link.href} />
                 </li>
-                <li>
-                    <a href="/#">Datenschutz</a>
-                </li>
-                <li>
-                    <a href="/#">AGB</a>
-                </li>
-            </ul>
-        </div>
+            ))}
+        </ul>
     )
 }
