@@ -1,5 +1,5 @@
 export default function OpeningHoursCard({ day, hoursBegin, hoursEnd, isOpen }) {
-    const classBox = (isOpen ? "bg-dark-card" : "") + " flex flex-col justify-center w-full border min-h-30 p-8 text-stone"
+    const classBox = (isOpen ? "bg-dark-card" : "") + " flex flex-col justify-center w-full border min-h-20 p-4 text-stone"
     
     return (
         <li className={classBox}>
