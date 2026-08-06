@@ -3,7 +3,7 @@ import FooterMain from "./main/FooterMain";
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className="flex flex-col p-4">
             <FooterMain />
             <FooterBottom />
         </footer>
