@@ -1,8 +1,8 @@
 import Button from "./Button"
 
-export default function OutlinedButton({ onClick, children }) {
+export default function OutlinedButton({ onClick, color, children }) {
     return (
-        <Button onClick={onClick} className="border-amber border-2 text-amber">
+        <Button onClick={onClick} className={`border-${color} border-2 text-${color}`}>
             {children}
         </Button>
     )

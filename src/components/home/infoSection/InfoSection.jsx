@@ -9,7 +9,7 @@ const cardsData = [
 
 export default function InfoSection() {
     return (
-        <Section className="bg-dark-mid flex-col gap-4 md:flex-row">
+        <Section className="bg-dark-mid min-h-screen md:min-h-[50vh] flex-col gap-4 md:flex-row justify-center items-center">
             {cardsData.map((card, index) => (
                 <InfoCard key={index} title={card.title} text={card.text} colorTitle={card.color} />
             ))}
