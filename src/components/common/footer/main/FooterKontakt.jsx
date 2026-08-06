@@ -2,7 +2,7 @@ import { contactInfo } from "../../../../assets/data.js"
 
 export default function FooterKontakt() {
     return (
-        <div>
+        <div className="max-w-xs">
             <h3 className="text-amber tracking-widest uppercase py-4">Kontakt</h3>
             <div className="flex flex-col gap-2 text-stone font-light">
                 <p>{contactInfo.address}</p>

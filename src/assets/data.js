@@ -8,10 +8,10 @@ export const pageList = [
 ]
 
 export const openingHours = [
-  { day: "MO - DI", hoursBegin: "", hoursEnd: "", isOpen: false},
-  { day: "MI - DO", hoursBegin: "17:30", hoursEnd: "23:00", isOpen: true},
-  { day: "FR - SA", hoursBegin: "12:00", hoursEnd: "00:00", isOpen: true},
-  { day: "SO & FEIERTAG", hoursBegin: "12:00", hoursEnd: "22:00", isOpen: true},
+  { day: "Mo - Di", hoursBegin: "", hoursEnd: "", isOpen: false},
+  { day: "Mi - Do", hoursBegin: "17:30", hoursEnd: "23:00", isOpen: true},
+  { day: "Fr - Sa", hoursBegin: "12:00", hoursEnd: "00:00", isOpen: true},
+  { day: "So & Ftg", hoursBegin: "12:00", hoursEnd: "22:00", isOpen: true},
 ]
 
 export const contactInfo = {
