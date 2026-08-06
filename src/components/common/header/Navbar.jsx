@@ -4,11 +4,13 @@ import { pageList } from "../../../assets/data.js"
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav className="flex-1 flex flex-row justify-between items-center">
             <Logo />
-            {pageList.map((page) => (
-                <NavbarLink key={page.href} name={page.name} href={page.href} />
-            ))}
+            <div className="flex flex-row">
+                {pageList.map((page) => (
+                    <NavbarLink key={page.href} name={page.name} href={page.href} />
+                ))}
+            </div>
         </nav>
     )
 }

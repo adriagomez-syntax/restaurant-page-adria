@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,600&family=Work+Sans:wght@300;400;500;600&display=swap');
 @import "tailwindcss";
 
 @theme {
-    --color-primary: #4CAF50;
-    --color-secondary: #FF5722;
-    --color-accent: #FFC107;
-    --color-background: #F5F5F5;
+  --color-gold: #EBD078;
+  --color-amber: #EBB878;
+  --color-purple: #A678EB;
+  --color-blue: #7887EB;
+  --color-stone: #96907E;
+  --color-dark: #18140F;
+  --color-dark-mid: #221D16;
+  --color-dark-card: #2A2318;
+  --color-cream: #F5EFE0;
 }
+
+body {
+  background-color: var(--color-dark);
+  color: var(--color-cream);
+  font-family: 'Work Sans', sans-serif;
+}
+
+.font-display { font-family: 'Fraunces', serif; }
