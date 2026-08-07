@@ -1,7 +1,7 @@
 export default function Menu() {
     return (
-        <div>
+        <main className="flex flex-col flex-1">
             
-        </div>
+        </main>
     )
 }
