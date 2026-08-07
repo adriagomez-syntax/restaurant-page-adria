@@ -1,6 +1,6 @@
 export default function StoryResume() {
     return (
-        <div className="flex flex-col gap-4 text-text font-light text-xl">
+        <div className="flex flex-col gap-4 text-text font-light">
             <p>
                 2018 eröffnete Adria Gomez den Spanischen Traum mit einer simplen Vision: die Wärme, die Farben und den unvergleichlichen Geschmack Spaniens nach Stuttgart zu bringen.
             </p>

@@ -3,7 +3,7 @@ export default function InfoCard({ title, text, colorTitle }) {
 
     return (
         <div className="flex flex-col justify-center items-center bg-background-card p-8 rounded-sm min-h-50">
-            <h4 className={classTitle}>{title}</h4>
+            <h4 className={classTitle + " font-secondary"}>{title}</h4>
             <p className="text-text text-center font-light">{text}</p>
         </div>
     )
