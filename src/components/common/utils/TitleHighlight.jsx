@@ -1,6 +1,6 @@
 export default function TitleHighlight({ className, children }) {
     return (
-        <h3 className={className + " text-amber tracking-widest uppercase font-light font-mono"}>
+        <h3 className={className + " text-xs text-secondary tracking-widest uppercase font-light"}>
             { children }
         </h3>
     )

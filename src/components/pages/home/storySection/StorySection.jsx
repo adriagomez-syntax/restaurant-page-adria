@@ -1,10 +1,10 @@
-import storyImage from "../../../assets/images/Foto2.jpg"
+import storyImage from "../../../../assets/images/Foto2.jpg"
 import StoryYears from "./StoryYears";
 import StorySlogan from "./StorySlogan";
 import StoryResume from "./StoryResume";
-import Section from "../../common/utils/Section";
-import OutlinedButton from "../../common/utils/OutlinedButton";
-import TitleHighlight from "../../common/utils/TitleHighlight";
+import Section from "../../../common/utils/Section";
+import OutlinedButton from "../../../common/utils/OutlinedButton";
+import TitleHighlight from "../../../common/utils/TitleHighlight";
 
 export default function StorySection() {
     return (
@@ -18,7 +18,7 @@ export default function StorySection() {
                 <StorySlogan />
                 <StoryResume />
                 <div className="flex flex-col md:block">
-                    <OutlinedButton onClick={() => { window.location = "#About" }} color="amber">
+                    <OutlinedButton onClick={() => { window.location = "#About" }} color="secondary">
                         Mehr über uns
                     </OutlinedButton>
                 </div>

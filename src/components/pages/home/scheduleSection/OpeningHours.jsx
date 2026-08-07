@@ -1,4 +1,4 @@
-import { openingHours } from '../../../assets/data'
+import { openingHours } from '../../../../assets/data'
 import OpeningHoursCard from './OpeningHoursCard'
 
 export default function OpeningHours() {

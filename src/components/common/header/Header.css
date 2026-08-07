@@ -1,4 +1,4 @@
 .header {
     border-bottom: 1px solid;
-    border-image: linear-gradient(to right, var(--color-dark-card), var(--color-gold), var(--color-purple), var(--color-dark-mid), var(--color-dark)) 1;
+    border-image: linear-gradient(to right, var(--color-background-card), var(--color-accent-1), var(--color-accent-2), var(--color-background-mid), var(--color-background)) 1;
 }
