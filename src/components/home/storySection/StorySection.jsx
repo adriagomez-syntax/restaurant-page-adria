@@ -4,6 +4,7 @@ import StorySlogan from "./StorySlogan";
 import StoryResume from "./StoryResume";
 import Section from "../../common/utils/Section";
 import OutlinedButton from "../../common/utils/OutlinedButton";
+import TitleHighlight from "../../common/utils/TitleHighlight";
 
 export default function StorySection() {
     return (
@@ -13,7 +14,7 @@ export default function StorySection() {
                 <img className="rounded-sm" src={storyImage} alt="Unsere Geschichte" />
             </div>
             <div className="flex flex-col gap-8">
-                <h3 className="text-amber tracking-widest font-light uppercase font-mono">Unsere Geschichte</h3>
+                <TitleHighlight>Unsere Geschichte</TitleHighlight>
                 <StorySlogan />
                 <StoryResume />
                 <div className="flex flex-col md:block">

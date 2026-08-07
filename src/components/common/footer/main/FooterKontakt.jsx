@@ -1,9 +1,10 @@
 import { contactInfo } from "../../../../assets/data.js"
+import TitleHighlight from "../../utils/TitleHighlight.jsx"
 
 export default function FooterKontakt() {
     return (
         <div className="max-w-xs">
-            <h3 className="text-amber tracking-widest uppercase font-light font-mono py-4">Kontakt</h3>
+            <TitleHighlight className="py-4">Kontakt</TitleHighlight>
             <div className="flex flex-col gap-2 text-stone font-light">
                 <p>{contactInfo.address}</p>
                 <p>{contactInfo.city}</p>
