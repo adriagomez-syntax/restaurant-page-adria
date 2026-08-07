@@ -13,7 +13,7 @@ export default function StorySection() {
                 <img className="rounded-sm" src={storyImage} alt="Unsere Geschichte" />
             </div>
             <div className="flex flex-col gap-8">
-                <h3 className="text-amber tracking-widest font-light uppercase">Unsere Geschichte</h3>
+                <h3 className="text-amber tracking-widest font-light uppercase font-mono">Unsere Geschichte</h3>
                 <StorySlogan />
                 <StoryResume />
                 <div className="flex flex-col md:block">
