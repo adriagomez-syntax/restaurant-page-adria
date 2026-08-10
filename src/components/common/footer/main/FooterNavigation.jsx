@@ -1,6 +1,6 @@
 import { pageList } from '../../../../assets/data'
 import TitleHighlight from '../../utils/TitleHighlight'
-import '../../utils/LinkAnimation.css'
+import '../../utils/css/LinkAnimation.css'
 
 export default function FooterNavigation() {
     return (

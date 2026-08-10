@@ -1,0 +1,9 @@
+.bg-diagonal-lines {
+    background-image: repeating-linear-gradient(
+        45deg,
+        var(--color-background-card) 0,
+        var(--color-background-card) 1px,
+        transparent 1px,
+        transparent 10px
+    );
+}

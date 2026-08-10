@@ -1,9 +1,9 @@
-import Button from "./Button"
+import BigButton from "./BigButton"
 
 export default function OutlinedButton({ onClick, color, children }) {
     return (
-        <Button onClick={onClick} className={`border-${color} border-2 text-${color}`}>
+        <BigButton onClick={onClick} className={`border-${color} border-2 text-${color}`}>
             {children}
-        </Button>
+        </BigButton>
     )
 }

@@ -1,9 +1,9 @@
-import Button from "./Button"
+import BigButton from "./BigButton"
 
 export default function FilledButton({ onClick, colorBg, colorText, children }) {
     return (
-        <Button onClick={onClick} className={`bg-${colorBg} text-${colorText}`}>
+        <BigButton onClick={onClick} className={`bg-${colorBg} text-${colorText}`}>
             {children}
-        </Button>
+        </BigButton>
     )
 }

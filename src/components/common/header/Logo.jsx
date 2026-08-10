@@ -1,4 +1,4 @@
-import '../utils/ButtonAnimation.css'
+import '../utils/css/ButtonAnimation.css'
 
 export default function Logo() {
     return (
