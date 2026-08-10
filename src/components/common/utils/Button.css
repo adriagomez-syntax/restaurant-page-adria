@@ -1,0 +1,4 @@
+.ButtonAnim:active {
+    transform: scale(0.95,0.95);
+    transition: ease-in 0.1s;
+}
