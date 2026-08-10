@@ -1,6 +1,8 @@
+import '../utils/ButtonAnimation.css'
+
 export default function Logo() {
     return (
-        <div className="">
+        <div className="ButtonAnimation">
             <a href="#Home">
                 <svg width="2048" height="2048" xmlns="http://www.w3.org/2000/svg" className="size-15" viewBox="0 0 2048 2048" width="1024" height="1024" preserveAspectRatio="none" version="1.1">
                     <path id="svg_1" d="m0,0l2048,0l0,2048l-2048,0l0,-2048z" fill="none"/>
