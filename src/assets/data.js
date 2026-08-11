@@ -4,7 +4,7 @@ export const pageList = [
   { name: "Über uns", path: "/about" },
   { name: "Galerie", path: "/gallery" },
   { name: "Kontakt", path: "/contact" },
-  { name: "Reservierung", path: "/reservation" }
+  { name: "Reservierung", path: "/reserve" }
 ]
 
 export const openingHours = [

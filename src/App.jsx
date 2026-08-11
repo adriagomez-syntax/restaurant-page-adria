@@ -1,9 +1,13 @@
+import { Routes, Route } from 'react-router-dom'
 import Header from './components/common/header/Header'
 import Footer from './components/common/footer/Footer'
 import Error404 from './pages/Error404'
 import HomePage from './pages/HomePage'
 import MenuPage from './pages/MenuPage'
-import { Routes, Route } from 'react-router-dom'
+import AboutPage from './pages/AboutPage'
+import GalleryPage from './pages/GalleryPage'
+import ContactPage from './pages/ContactPage'
+import ReservePage from './pages/ReservePage'
 
 export default function App() {
   return (
@@ -12,6 +16,10 @@ export default function App() {
         <Routes>
           <Route path="/" element={ <HomePage /> } />
           <Route path="menu" element={ <MenuPage /> } />
+          <Route path="about" element={ <AboutPage /> } />
+          <Route path="gallery" element={ <GalleryPage /> } />
+          <Route path="contact" element={ <ContactPage /> } />
+          <Route path="reserve" element={ <ReservePage /> } />
           
           <Route path="/*" element={ <Error404 /> } />
         </Routes>
