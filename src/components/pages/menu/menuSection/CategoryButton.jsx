@@ -6,8 +6,8 @@ export default function CategoryButton({ index, selected, children }) {
         <li key={ index }>
                 <Link to={ "/menu/" + index }>
                     <SelectionButton isActive={ index == selected } 
-                    defColor="text" borderColor="background-card" 
-                    selColor="background-card" bgColor="accent-1">
+                    activeClass="text-background-card bg-accent-1"
+                    inactiveClass="text-text border border-background-card">
                         { children }
                     </SelectionButton>
                 </Link>
