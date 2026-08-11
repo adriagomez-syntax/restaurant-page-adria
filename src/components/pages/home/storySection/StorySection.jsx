@@ -20,9 +20,11 @@ export default function StorySection() {
                     <StorySlogan />
                     <StoryResume />
                     <div className="flex flex-col md:block">
-                        <OutlinedButton className="border-secondary text-secondary">
-                            <Link to="about">Mehr über uns</Link>
-                        </OutlinedButton>
+                        <Link to="/about">
+                            <OutlinedButton className="w-full md:w-auto border-secondary text-secondary">
+                                Mehr über uns
+                            </OutlinedButton>
+                        </Link>
                     </div>
                 </div>
             </div>

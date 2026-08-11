@@ -7,7 +7,7 @@ export default function MenuSection({ selected = 0 }) {
     return (
         <section className="flex-1 py-4 flex min-h-screen flex-col bg-background border-b-background-card border-b">
             <div className="px-4 pb-4 border-b-background-card border-b">
-                <MenuCategory selected={ selected } />
+                <MenuCategory />
             </div>
             {typeof(menu[selected]) !== "undefined" ?
                 <DishList data={ menu[selected].dishes } />

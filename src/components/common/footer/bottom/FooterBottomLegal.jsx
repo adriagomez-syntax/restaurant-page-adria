@@ -1,9 +1,9 @@
 import FooterBottomLegalLink from "./FooterBottomLegalLink"
 
 const legalLinks = [
-    { name: "Impressum", path: "legal" },
-    { name: "Datenschutz", path: "data-protection" },
-    { name: "AGB", path: "terms" },
+    { name: "Impressum", path: "/legal" },
+    { name: "Datenschutz", path: "/data-protection" },
+    { name: "AGB", path: "/terms" },
 ]
 
 export default function FooterBottomLegal() {

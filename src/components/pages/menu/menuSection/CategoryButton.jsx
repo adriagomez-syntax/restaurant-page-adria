@@ -1,16 +1,22 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import SelectionButton from "../../../common/utils/SelectionButton";
+import Button from "../../../common/utils/Button";
 
-export default function CategoryButton({ index, selected, children }) {
+export default function CategoryButton({ index, children }) {
+    const defaultClasses = "text-xs tracking-widest font-semibold px-5 py-2 rounded-xs";
+    
     return (
         <li key={ index }>
-                <Link to={ "/menu/" + index }>
-                    <SelectionButton isActive={ index == selected } 
-                    activeClass="text-background-card bg-accent-1"
-                    inactiveClass="text-text border border-background-card">
+            <NavLink to={ "/menu/" + index }>
+                {({ isActive }) => (
+                    <Button className={defaultClasses + " " + (isActive ? 
+                        "text-background-card bg-accent-1"
+                        : "text-text border border-background-card"
+                    )}>
                         { children }
-                    </SelectionButton>
-                </Link>
-            </li>
+                    </Button>
+                )}    
+            </NavLink>
+        </li>
     )
 }

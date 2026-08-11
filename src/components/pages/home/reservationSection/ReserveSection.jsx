@@ -10,9 +10,11 @@ export default function ReservierungSection() {
                 <h3 className="font-secondary italic">heute Abend</h3>
             </div>
             <p className="text-background-mid font-light text-center">Reservieren Sie Ihren Tisch — wir freuen uns auf Sie.</p>
-            <FilledButton className="bg-accent-1 text-background">
-                <Link to="reserve">Jetzt Reservieren</Link>
-            </FilledButton>
+            <Link to="/reserve">
+                <FilledButton className="bg-accent-1 text-background">
+                    Jetzt Reservieren
+                </FilledButton>
+            </Link>
         </Section>
     )
 }
