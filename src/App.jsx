@@ -3,7 +3,6 @@ import Footer from './components/common/footer/Footer'
 import Error404 from './pages/Error404'
 import HomePage from './pages/HomePage'
 import MenuPage from './pages/MenuPage'
-import './App.css'
 import { Routes, Route } from 'react-router-dom'
 
 export default function App() {
