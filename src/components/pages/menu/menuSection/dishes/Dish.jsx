@@ -2,7 +2,7 @@ import TitleHighlight from "../../../../common/utils/TitleHighlight";
 
 export default function Dish({ n, dish }) {
     return (
-        <li key="n" className="flex justify-between md:mx-60 min-h-20 py-8 not-last:border-b-primary not-last:border-b">
+        <li key={ n } className="flex justify-between md:mx-60 min-h-20 py-8 not-last:border-b-primary not-last:border-b">
             <div className="flex-1 flex">
                 <TitleHighlight className="font-secondary">
                     {n.toString().padStart(2, 0)}
@@ -14,12 +14,12 @@ export default function Dish({ n, dish }) {
                         </h3>
                         <div className="flex items-center gap-2">
                             {dish.tag.map((tag) => (
-                                <span className="text-xs text-accent-3 text-shadow-2xs tracking-widest font-light bg-accent-3/10 rounded-xs px-2 py-1 uppercase">{ tag }</span>
+                                <span key={ tag } className="text-xs text-accent-3 text-shadow-2xs tracking-widest font-light bg-accent-3/10 rounded-xs px-2 py-1 uppercase">{ tag }</span>
                             ))}
                         </div>
                     </div>
                     <p className="text-text text-sm font-light mt-2">
-                        {dish.ingredients}
+                        {dish.desc}
                     </p>
                 </div>
             </div>

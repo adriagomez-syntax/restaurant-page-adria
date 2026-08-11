@@ -14,14 +14,15 @@ export default function App() {
     <div className="text-primary bg-background-dark font-primary flex flex-col min-h-screen">
       <Header />
         <Routes>
-          <Route path="/" element={ <HomePage /> } />
+          <Route path="" element={ <HomePage /> } />
           <Route path="menu" element={ <MenuPage /> } />
+          <Route path="menu/:index" element={ <MenuPage /> } />
           <Route path="about" element={ <AboutPage /> } />
           <Route path="gallery" element={ <GalleryPage /> } />
           <Route path="contact" element={ <ContactPage /> } />
           <Route path="reserve" element={ <ReservePage /> } />
           
-          <Route path="/*" element={ <Error404 /> } />
+          <Route path="*" element={ <Error404 /> } />
         </Routes>
       <Footer />
     </div>
