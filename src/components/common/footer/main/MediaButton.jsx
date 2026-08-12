@@ -1,6 +1,6 @@
-import FacebookLogo from "../../../../assets/images/icons8-facebook.svg";
-import LinkedInLogo from "../../../../assets/images/icons8-linkedin.svg";
-import InstagramLogo from "../../../../assets/images/icons8-instagram.svg";
+import FacebookLogo from "../../../../assets/images/icons/icons8-facebook.svg";
+import LinkedInLogo from "../../../../assets/images/icons/icons8-linkedin.svg";
+import InstagramLogo from "../../../../assets/images/icons/icons8-instagram.svg";
 import '../../utils/css/ButtonAnimation.css'
 
 const media_data = {

@@ -1,9 +1,12 @@
 import Main from "../components/common/utils/Main";
+import HeroGallerySection from "../components/pages/gallery/hero/HeroGallerySection";
+import ImagesGallerySection from "../components/pages/gallery/images/ImagesGallerySection";
 
 export default function GalleryPage() {
 	return (
 		<Main>
-			<p className="text-text mt-15 p-4">Here goes the Gallery</p>
+			<HeroGallerySection />
+			<ImagesGallerySection />
 		</Main>
 	)
 }
