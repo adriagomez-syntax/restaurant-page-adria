@@ -6,13 +6,13 @@ import ScheduleSection from '../components/pages/home/scheduleSection/ScheduleSe
 import Main from '../components/common/utils/Main'
 
 export default function HomePage() {
-    return (
-        <Main>
-            <HeroSection />
-            <InfoSection />
-            <StorySection />
-            <ReservierungSection />
-            <ScheduleSection />
-        </Main>
-    )
+	return (
+		<Main>
+			<HeroSection />
+			<InfoSection />
+			<StorySection />
+			<ReservierungSection />
+			<ScheduleSection />
+		</Main>
+	)
 }

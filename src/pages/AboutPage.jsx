@@ -1,9 +1,14 @@
 import Main from "../components/common/utils/Main";
+import HeroAboutSection from "../components/pages/about/hero/HeroAboutSection";
+import StoryAboutSection from "../components/pages/about/story/StoryAboutSection";
+import ValuesAboutSection from "../components/pages/about/values/ValuesAboutSection";
 
 export default function AboutPage() {
-    return (
-        <Main>
-            <p className="text-text mt-15 p-4">Here goes the About</p>
-        </Main>
-    )
+	return (
+		<Main>
+			<HeroAboutSection />
+			<StoryAboutSection />
+			<ValuesAboutSection />
+		</Main>
+	)
 }
