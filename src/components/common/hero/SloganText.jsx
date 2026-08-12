@@ -1,6 +1,6 @@
-export default function SloganText({ children }) {
+export default function SloganText({ className = "", children }) {
 	return (
-		<div className="text-4xl font-secondary font-light md:text-5xl">
+		<div className={ className + " " + "text-4xl font-secondary font-light md:text-5xl" }>
 			{ children }
 		</div>
 	)

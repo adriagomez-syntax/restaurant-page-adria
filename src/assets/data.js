@@ -42,21 +42,29 @@ export const menu = [
 			{ name: "Berenjenas con Miel", tag: ["vegetarisch"], desc: "Frittierte Auberginen mit Honig und Ziegenkäse, saisonaler Salat", price: 19 }
 		]
 	},
-	{ name: "Desserts", dishes: [
-		{ name: "Crema Catalana", tag: ["vegetarisch"], desc: "Katalanische Creme mit karamellisiertem Zucker, Zimt, Zitronenschale", price: 9 },
-		{ name: "Churros con Chocolate", tag: ["vegan"], desc: "Hausgemachte Churros mit heißer Schokoladen-Sauce", price: 10 },
-		{ name: "Tarta de Santiago", tag: ["vegetarisch"], desc: "Galizischer Mandelkuchen, Puderzucker-Kreuz, Crème fraîche", price: 8 },
-		{ name: "Flan de Huevo", tag: ["vegetarisch"], desc: "Spanische Karamelcreme, Karamellsauce, frische Beeren", price: 8 },
-		{ name: "Helado Artesanal", tag: ["vegetarisch"], desc: "Hausgemachtes Eis der Saison (3 Kugeln), Mandelbrösel", price: 7 },
-	]
+	{ 
+		name: "Desserts", dishes: [
+			{ name: "Crema Catalana", tag: ["vegetarisch"], desc: "Katalanische Creme mit karamellisiertem Zucker, Zimt, Zitronenschale", price: 9 },
+			{ name: "Churros con Chocolate", tag: ["vegan"], desc: "Hausgemachte Churros mit heißer Schokoladen-Sauce", price: 10 },
+			{ name: "Tarta de Santiago", tag: ["vegetarisch"], desc: "Galizischer Mandelkuchen, Puderzucker-Kreuz, Crème fraîche", price: 8 },
+			{ name: "Flan de Huevo", tag: ["vegetarisch"], desc: "Spanische Karamelcreme, Karamellsauce, frische Beeren", price: 8 },
+			{ name: "Helado Artesanal", tag: ["vegetarisch"], desc: "Hausgemachtes Eis der Saison (3 Kugeln), Mandelbrösel", price: 7 },
+		]
 	},
-	{ name: "Getränke", dishes: [
-		{ name: "Sangría Roja", tag: ["vegan"], desc: "Hausgemachte rote Sangría mit Rotwein, Brandy, Orangen und Zimtstange", price: 8 },
-		{ name: "Sangría Blanca", tag: ["vegan"], desc: "Weiße Sangría mit Weißwein, Limette, Minze und Pfirsich", price: 8 },
-		{ name: "Rioja Reserva", tag: ["vegan"], desc: "Tempranillo, Rioja DOCa, 2019 — vollmundig, kirsch, Vanille", price: 11 },
-		{ name: "Albariño", tag: ["vegan"], desc: "Rias Baixas, 2022 - frisch, mineralisch, Zitrus, weißer Pfirsich", price: 9 },
-		{ name: "Horchata de Chufa", tag: ["vegan"], desc: "Traditionelles valencianisches Erfrischungsgetränk aus Erdmandeln", price: 5 },
-		{ name: "Café Solo / Cortado", tag: ["vegan"], desc: "Spanischer Espresso aus biologisch angebautem Arabica", price: 3 },
-	]
+	{ 
+		name: "Getränke", dishes: [
+			{ name: "Sangría Roja", tag: ["vegan"], desc: "Hausgemachte rote Sangría mit Rotwein, Brandy, Orangen und Zimtstange", price: 8 },
+			{ name: "Sangría Blanca", tag: ["vegan"], desc: "Weiße Sangría mit Weißwein, Limette, Minze und Pfirsich", price: 8 },
+			{ name: "Rioja Reserva", tag: ["vegan"], desc: "Tempranillo, Rioja DOCa, 2019 — vollmundig, kirsch, Vanille", price: 11 },
+			{ name: "Albariño", tag: ["vegan"], desc: "Rias Baixas, 2022 - frisch, mineralisch, Zitrus, weißer Pfirsich", price: 9 },
+			{ name: "Horchata de Chufa", tag: ["vegan"], desc: "Traditionelles valencianisches Erfrischungsgetränk aus Erdmandeln", price: 5 },
+			{ name: "Café Solo / Cortado", tag: ["vegan"], desc: "Spanischer Espresso aus biologisch angebautem Arabica", price: 3 },
+		]
 	}
-]
+];
+
+export const team = [
+	{ name: "Marcos Lopez", job: "Küchenchef", text: "Aufgewachsen in Madrid, verfeinerte Marcos ihr Handwerk in den besten Küchen Barcelonas und Madrids. Ihre Philosophie: ehrliche, saisonale Küche mit andalusischer Seele.", img: "Marcos-Lopez.jpg" },
+	{ name: "Adria Gomez", job: "Gastgeber & Inhaber", text: "Als begeisterter Spanien-Reisender gründete Adria 2018 den Spanischen Traum, um Stuttgarten die Wärme und Herzlichkeit spanischer Gastfreundschaft näherzubringen.", img: "Adria-Gomez.jpg" },
+	{ name: "Sofía Reyes", job: "Sommelière", text: "Mit einem Diplom der Weinakademie Madrid wählt Sofía mit Leidenschaft die Weinkarte des Hauses. Ihr Schwerpunkt: unbekannte Winzer aus den Regionen Spaniens.", img: "Sofia-Reyes.jpg" },
+];
