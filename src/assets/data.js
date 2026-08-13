@@ -9,9 +9,24 @@ export const pageList = [
 
 export const openingHours = [
 	{ day: "Mo - Di", hoursBegin: "", hoursEnd: "", isOpen: false },
-	{ day: "Mi - Do", hoursBegin: "17:30", hoursEnd: "23:00", isOpen: true },
+	{ day: "Mi - Do", hoursBegin: "18:00", hoursEnd: "23:00", isOpen: true },
 	{ day: "Fr - Sa", hoursBegin: "12:00", hoursEnd: "00:00", isOpen: true },
 	{ day: "So & Ftg", hoursBegin: "12:00", hoursEnd: "22:00", isOpen: true },
+]
+
+export const reserveHours = [
+	{ hour: "12:00", exclusion: ["Mo", "Di", "Mi", "Do"] },
+	{ hour: "13:00", exclusion: ["Mo", "Di", "Mi", "Do"] },
+	{ hour: "14:00", exclusion: ["Mo", "Di", "Mi", "Do"] },
+	{ hour: "15:00", exclusion: ["Mo", "Di", "Mi", "Do"] },
+	{ hour: "16:00", exclusion: ["Mo", "Di", "Mi", "Do"] },
+	{ hour: "17:00", exclusion: ["Mo", "Di", "Mi", "Do"] },
+	{ hour: "18:00", exclusion: ["Mo", "Di"] },
+	{ hour: "19:00", exclusion: ["Mo", "Di"] },
+	{ hour: "20:00", exclusion: ["Mo", "Di"] },
+	{ hour: "21:00", exclusion: ["Mo", "Di"] },
+	{ hour: "22:00", exclusion: ["Mo", "Di", "So", "Ftg"] },
+	{ hour: "23:00", exclusion: ["Mo", "Di", "Mi", "Do", "So", "Ftg"] },
 ]
 
 export const contactInfo = {

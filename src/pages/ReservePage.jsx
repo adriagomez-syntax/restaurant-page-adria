@@ -1,9 +1,12 @@
 import Main from "../components/common/utils/Main";
+import FormReserveSection from "../components/pages/reserve/form/FormReserveSection";
+import HeroReserveSection from "../components/pages/reserve/HeroReserveSection";
 
 export default function ReservePage() {
 	return (
 		<Main>
-			<p className="text-text mt-15 p-4">Here goes the Reserve</p>
+			<HeroReserveSection />
+			<FormReserveSection />
 		</Main>
 	)
 }
