@@ -5,7 +5,7 @@ import FilledButton from "../../../../common/utils/button/FilledButton";
 
 export default function FormReservePhase1() {
 	return (
-		<div className="flex flex-col gap-6 mt-12">
+		<div className="flex flex-col gap-6">
 			<FormReservePhase1Date />
 			<FormReservePhase1Hour />
 			<FormReservePhase1Diners />

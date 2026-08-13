@@ -10,7 +10,7 @@ export default function FormReserveProgress() {
 	]
 	
 	return (
-		<ul className="flex gap-2 justify-center items-center">
+		<ul className="flex gap-2 justify-center items-center mb-12">
 			{Array.from({ length: n }, (_, index) => (
 				<div key={ index } className="flex gap-2">
 					<FormReserveProgressNumber number={ index >= current ? index + 1 : -1 } 

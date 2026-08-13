@@ -1,5 +1,5 @@
 import { FaCheck } from "react-icons/fa";
-import TitleHighlight from "../../../common/utils/TitleHighlight";
+import TitleHighlight from "../../../../common/utils/TitleHighlight";
 
 export default function FormReserveProgressNumber({ number, title, filledClass = "", titleColor = "" }) {
 	const finalClass = filledClass + " " + "flex justify-center items-center size-10 rounded-full border border-accent-1/50 p-4";

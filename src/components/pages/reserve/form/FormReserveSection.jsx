@@ -1,6 +1,9 @@
 import SectionWidth from "../../../common/utils/SectionWidth";
-import FormReserveProgress from "./FormReserveProgress";
-import FormReservePhase1 from "./Phase1/FormReservePhase1";
+import FormReserveProgress from "./progress/FormReserveProgress";
+import FormReservePhase1 from "./phase1/FormReservePhase1";
+import FormReserveFinish from "./FormReserveFinish";
+//import FormReservePhase2 from "./phase2/FormReservePhase2";
+//import FormReservePhase3 from "./phase3/FormReservePhase3";
 
 export default function FormReserveSection() {
 	return (
@@ -9,6 +12,7 @@ export default function FormReserveSection() {
 				<FormReserveProgress />
 				<FormReservePhase1 />
 			</form>
+			<FormReserveFinish className="hidden" />
 		</SectionWidth>
 	)
 }
