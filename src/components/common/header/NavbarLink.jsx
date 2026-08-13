@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router'
 import '../utils/css/ButtonAnimation.css'
 
 export default function NavbarLink({ name, path }) {

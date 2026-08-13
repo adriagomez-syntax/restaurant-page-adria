@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import FilledButton from "../../../common/utils/FilledButton";
 import Section from "../../../common/utils/Section";
 

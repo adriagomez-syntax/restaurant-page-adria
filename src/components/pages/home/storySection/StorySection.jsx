@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import StoryYears from "./StoryYears";
 import StorySlogan from "./StorySlogan";
 import StoryResume from "./StoryResume";

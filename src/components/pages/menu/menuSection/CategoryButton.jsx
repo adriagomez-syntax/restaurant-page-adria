@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router";
 import Button from "../../../common/utils/Button";
 
 export default function CategoryButton({ index, children }) {

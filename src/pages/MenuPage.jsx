@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 import Main from "../components/common/utils/Main";
 import HeroMenuSection from "../components/pages/menu/heroSection/HeroMenuSection";
 import MenuSection from "../components/pages/menu/menuSection/MenuSection";

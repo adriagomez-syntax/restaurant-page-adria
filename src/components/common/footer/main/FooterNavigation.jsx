@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 import { pageList } from '../../../../assets/data'
 import TitleHighlight from '../../utils/TitleHighlight'
 import '../../utils/css/LinkAnimation.css'
