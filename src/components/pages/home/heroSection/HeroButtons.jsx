@@ -1,6 +1,6 @@
 import { Link } from "react-router";
-import FilledButton from "../../../common/utils/FilledButton";
-import OutlinedButton from "../../../common/utils/OutlinedButton";
+import FilledButton from "../../../common/utils/button/FilledButton";
+import OutlinedButton from "../../../common/utils/button/OutlinedButton";
 
 export default function HeroButtons() {
 	return (

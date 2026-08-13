@@ -1,7 +1,7 @@
 import Logo from "./Logo"
 import NavbarLink from "./NavbarLink"
 import { pageList } from "../../../assets/data.js"
-import Button from "../utils/Button.jsx"
+import Button from "../utils/button/Button.jsx"
 
 export default function Navbar() {
 	return (

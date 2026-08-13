@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import FilledButton from "../../../common/utils/FilledButton";
+import FilledButton from "../../../common/utils/button/FilledButton";
 import Section from "../../../common/utils/Section";
 
 export default function ReservierungSection() {

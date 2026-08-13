@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import Button from "../../../common/utils/Button";
+import Button from "../../../common/utils/button/Button";
 
 export default function CategoryButton({ index, children }) {
 	const defaultClasses = "text-xs tracking-widest font-semibold px-5 py-2 rounded-xs";

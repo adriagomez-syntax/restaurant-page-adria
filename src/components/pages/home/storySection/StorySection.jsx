@@ -3,7 +3,7 @@ import StoryYears from "./StoryYears";
 import StorySlogan from "./StorySlogan";
 import StoryResume from "./StoryResume";
 import Section from "../../../common/utils/Section";
-import OutlinedButton from "../../../common/utils/OutlinedButton";
+import OutlinedButton from "../../../common/utils/button/OutlinedButton";
 import TitleHighlight from "../../../common/utils/TitleHighlight";
 
 export default function StorySection() {
