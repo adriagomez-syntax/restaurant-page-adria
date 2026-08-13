@@ -1,7 +1,7 @@
 import SloganText from "../../../../common/hero/SloganText";
 import TitleHighlight from "../../../../common/utils/TitleHighlight";
 
-export default function FormReservePhase3Resume() {
+export default function FormReserveConfirmResume() {
 	return (
 		<div className="flex flex-col gap-6 border border-accent-1/20 bg-background-card p-8">
 			<SloganText className="text-xl text-wrap md:text-xl">Ihre Reservierung im Überblick</SloganText>

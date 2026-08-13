@@ -1,7 +1,7 @@
 import ButtonSelection from "../../../../common/utils/button/ButtonSelection";
 import TitleHighlight from "../../../../common/utils/TitleHighlight";
 
-export default function FormReservePhase1Diners() {
+export default function FormReserveDateDiners() {
 	const n = 8;
 	
 	return (

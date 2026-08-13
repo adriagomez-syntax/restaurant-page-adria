@@ -2,7 +2,7 @@ import ButtonSelection from "../../../../common/utils/button/ButtonSelection";
 import TitleHighlight from "../../../../common/utils/TitleHighlight";
 import { reserveHours } from "../../../../../assets/data";
 
-export default function FormReservePhase1Hour() {
+export default function FormReserveDateHour() {
 	return (
 		<div className="flex flex-col gap-2">
 			<TitleHighlight className="text-text text-sm">Uhrzeit</TitleHighlight>
