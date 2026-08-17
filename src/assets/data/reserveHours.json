@@ -1,0 +1,14 @@
+[
+	{ "hour": "12:00", "exclusion": ["Mo", "Di", "Mi", "Do"] },
+	{ "hour": "13:00", "exclusion": ["Mo", "Di", "Mi", "Do"] },
+	{ "hour": "14:00", "exclusion": ["Mo", "Di", "Mi", "Do"] },
+	{ "hour": "15:00", "exclusion": ["Mo", "Di", "Mi", "Do"] },
+	{ "hour": "16:00", "exclusion": ["Mo", "Di", "Mi", "Do"] },
+	{ "hour": "17:00", "exclusion": ["Mo", "Di", "Mi", "Do"] },
+	{ "hour": "18:00", "exclusion": ["Mo", "Di"] },
+	{ "hour": "19:00", "exclusion": ["Mo", "Di"] },
+	{ "hour": "20:00", "exclusion": ["Mo", "Di"] },
+	{ "hour": "21:00", "exclusion": ["Mo", "Di"] },
+	{ "hour": "22:00", "exclusion": ["Mo", "Di", "So", "Ftg"] },
+	{ "hour": "23:00", "exclusion": ["Mo", "Di", "Mi", "Do", "So", "Ftg"] }
+]

@@ -1,5 +1,5 @@
-import { contactInfo } from "../../../../assets/data.js"
 import TitleHighlight from "../../utils/TitleHighlight.jsx"
+import contactInfo from "../../../../assets/data/contact.json" with { type: 'json' }
 
 export default function FooterKontakt() {
 	return (

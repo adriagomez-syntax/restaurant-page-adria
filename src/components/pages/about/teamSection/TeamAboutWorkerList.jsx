@@ -1,5 +1,5 @@
-import { team } from "../../../../assets/data"
 import TeamAboutWorker from "./TeamAboutWorker"
+import team from "../../../../assets/data/team.json" with { type: 'json' }
 
 export default function TeamAboutWorkerList() {
 	return (

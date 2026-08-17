@@ -1,5 +1,5 @@
-import { menu } from "../../../../assets/data.js"
 import CategoryButton from "./CategoryButton.jsx"
+import menu from "../../../../assets/data/dishes.json" with { type: 'json' }
 
 export default function MenuCategory({ selected }) {
 	return (

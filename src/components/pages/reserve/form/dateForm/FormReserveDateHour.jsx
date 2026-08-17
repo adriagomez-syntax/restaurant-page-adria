@@ -1,6 +1,6 @@
 import ButtonSelection from "../../../../common/utils/button/ButtonSelection";
 import TitleHighlight from "../../../../common/utils/TitleHighlight";
-import { reserveHours } from "../../../../../assets/data";
+import reserveHours from "../../../../../assets/data/reserveHours.json" with { type: 'json' }
 
 export default function FormReserveDateHour() {
 	return (

@@ -1,6 +1,6 @@
 import { FaClock } from "react-icons/fa";
 import TitleHighlight from "../../../common/utils/TitleHighlight";
-import { openingHours } from "../../../../assets/data"
+import openingHours from "../../../../assets/data/openingHours.json" with { type: 'json' }
 
 export default function ContactInfoSchedule() {
 	return (

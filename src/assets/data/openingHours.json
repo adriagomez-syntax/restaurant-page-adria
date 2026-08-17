@@ -1,0 +1,6 @@
+[
+	{ "day": "Mo - Di", "hoursBegin": "", "hoursEnd": "", "isOpen": false },
+	{ "day": "Mi - Do", "hoursBegin": "18:00", "hoursEnd": "23:00", "isOpen": true },
+	{ "day": "Fr - Sa", "hoursBegin": "12:00", "hoursEnd": "00:00", "isOpen": true },
+	{ "day": "So & Ftg", "hoursBegin": "12:00", "hoursEnd": "22:00", "isOpen": true }
+]

@@ -1,5 +1,5 @@
-import { openingHours } from '../../../../assets/data.js'
 import TitleHighlight from '../../utils/TitleHighlight.jsx'
+import openingHours from '../../../../assets/data/openingHours.json' with { type: 'json' }
 
 export default function FooterSchedule() {
 	return (

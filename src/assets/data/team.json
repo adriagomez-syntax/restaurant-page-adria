@@ -1,0 +1,5 @@
+[
+	{ "name": "Marcos Lopez", "job": "Küchenchef", "text": "Aufgewachsen in Madrid, verfeinerte Marcos ihr Handwerk in den besten Küchen Barcelonas und Madrids. Ihre Philosophie: ehrliche, saisonale Küche mit andalusischer Seele.", "img": "Marcos-Lopez.jpg" },
+	{ "name": "Adria Gomez", "job": "Gastgeber & Inhaber", "text": "Als begeisterter Spanien-Reisender gründete Adria 2018 den Spanischen Traum, um Stuttgarten die Wärme und Herzlichkeit spanischer Gastfreundschaft näherzubringen.", "img": "Adria-Gomez.jpg" },
+	{ "name": "Sofía Reyes", "job": "Sommelière", "text": "Mit einem Diplom der Weinakademie Madrid wählt Sofía mit Leidenschaft die Weinkarte des Hauses. Ihr Schwerpunkt: unbekannte Winzer aus den Regionen Spaniens.", "img": "Sofia-Reyes.jpg" }
+]

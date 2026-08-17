@@ -1,7 +1,7 @@
 import MenuCategory from "./MenuCategory";
 import DishList from "./dishes/DishList.jsx";
 import MenuTaxes from "./MenuTaxes.jsx";
-import { menu } from "../../../../assets/data.js"
+import menu from "../../../../assets/data/dishes.json" with { type: 'json' }
 
 export default function MenuSection({ selected = 0 }) {
 	return (

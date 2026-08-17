@@ -1,0 +1,8 @@
+[
+	{ "name": "Startseite", "path": "/" },
+	{ "name": "Speisekarte", "path": "/menu" },
+	{ "name": "Über uns", "path": "/about" },
+	{ "name": "Galerie", "path": "/gallery" },
+	{ "name": "Kontakt", "path": "/contact" },
+	{ "name": "Reservierung", "path": "/reserve" }
+]

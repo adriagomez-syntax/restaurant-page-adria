@@ -1,5 +1,5 @@
-import { openingHours } from '../../../../assets/data'
 import OpeningHoursCard from './OpeningHoursCard'
+import openingHours from '../../../../assets/data/openingHours.json' with { type: 'json' }
 
 export default function OpeningHours() {
 	return (
