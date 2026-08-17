@@ -1,6 +1,7 @@
 import MenuCategory from "./MenuCategory";
 import DishList from "./dishes/DishList.jsx";
 import MenuTaxes from "./MenuTaxes.jsx";
+import DishGrid from "./dishes/DishGrid.jsx";
 import menu from "../../../../assets/data/dishes.json" with { type: 'json' }
 
 export default function MenuSection({ selected = 0 }) {
@@ -10,7 +11,10 @@ export default function MenuSection({ selected = 0 }) {
 				<MenuCategory />
 			</div>
 			{typeof(menu[selected]) !== "undefined" ?
-				<DishList data={ menu[selected].dishes } />
+				<>
+					<DishList data={ menu[selected].dishes } />
+					<DishGrid data={ menu[selected].dishes } />
+				</>
 				: ""
 			}
 			<MenuTaxes />
