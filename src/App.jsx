@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage'
 import GalleryPage from './pages/GalleryPage'
 import ContactPage from './pages/ContactPage'
 import ReservePage from './pages/ReservePage'
+import DishPage from './pages/DishPage'
 
 export default function App() {
 	return (
@@ -17,6 +18,7 @@ export default function App() {
 				<Route path="" element={ <HomePage /> } />
 				<Route path="/menu" element={ <Navigate to="/menu/0" replace /> } />
 				<Route path="/menu/:index" element={ <MenuPage /> } />
+				<Route path="/dish/:categoryId/:id" element={ <DishPage  /> } />
 				<Route path="/about" element={ <AboutPage /> } />
 				<Route path="/gallery" element={ <GalleryPage /> } />
 				<Route path="/contact" element={ <ContactPage /> } />

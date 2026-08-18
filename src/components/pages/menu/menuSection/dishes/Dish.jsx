@@ -1,31 +1,28 @@
+import { Link } from "react-router";
+import SloganText from "../../../../common/hero/SloganText";
+import WelcomeText from "../../../../common/hero/WelcomeText";
+import FilledButton from "../../../../common/utils/button/FilledButton";
+import ImgHighlight from "../../../../common/utils/ImgHighlight";
+import SectionWidth from "../../../../common/utils/SectionWidth";
 import TitleHighlight from "../../../../common/utils/TitleHighlight";
 
-export default function Dish({ n, dish }) {
+export default function Dish({ category, name, desc, img, price, tags }) {
 	return (
-		<li key={ n } className="flex justify-between md:mx-60 min-h-20 py-8 not-last:border-b-primary not-last:border-b">
-			<div className="flex-1 flex">
-				<TitleHighlight className="font-secondary">
-					{n.toString().padStart(2, 0)}
-				</TitleHighlight>
-				<div className="px-6">
-					<div className="flex gap-4 flex-wrap">
-						<h3 className="font-secondary font-light text-2xl">
-							{dish.name}
-						</h3>
-						<div className="flex items-center gap-2">
-							{dish.tag.map((tag) => (
-								<span key={ tag } className="text-xs text-accent-3 text-shadow-2xs tracking-widest font-light bg-accent-3/10 rounded-xs px-2 py-1 uppercase">{ tag }</span>
-							))}
-						</div>
-					</div>
-					<p className="text-text text-sm font-light mt-2">
-						{dish.desc}
-					</p>
-				</div>
+		<SectionWidth first={true} classNameParent="min-h-screen bg-background" className="flex-col">
+			<ImgHighlight src={ img } alt={ name } />
+			<SloganText className="py-4">{ name }</SloganText>
+			<div className="flex items-center gap-2">
+				{tags.map(tag => (
+					<span key={ tag } className="text-xs text-accent-3 text-shadow-2xs tracking-widest font-light bg-accent-3/10 rounded-xs px-2 py-1 uppercase">{ tag }</span>
+				))}
 			</div>
-			<span className="text-accent-1 font-light font-secondary text-right text-xl">
-                € { dish.price }
-			</span>
-		</li>
+			<WelcomeText className="py-4">{ desc }</WelcomeText>
+			<TitleHighlight className="mb-4">{ price + " €" }</TitleHighlight>
+			<Link to={`/menu/${category}`}>
+				<FilledButton className="py-4 w-full md:w-50 bg-accent-1 text-background">
+					{"< Zurück"}
+				</FilledButton>
+			</Link>
+		</SectionWidth>
 	)
 }

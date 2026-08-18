@@ -1,41 +1,41 @@
 [
 	{
-		"name": "Tapas", "dishes": [
-			{ "id": "patatas-bravas", "name": "Patatas Bravas", "tag": ["vegan"], "desc": "Knusprige Kartoffeln, scharfe Tomaten-Aioli, geräucherter Paprika", "price": 9, "img": "/images/dishes/patatas-bravas.jpg" },
-			{ "id": "gambas-ajillo", "name": "Gambas al Ajillo", "tag": [], "desc": "Riesengarnelen, Knoblauch, Weißwein, frische Petersilie", "price": 16, "img": "/images/dishes/gambas-ajillo.jpg" },
-			{ "id": "pan-tomate", "name": "Pan con Tomate", "tag": ["vegan"], "desc": "Geröstetes Brot, geriebene Tomaten, Olivenöl extra vergine, Fleur de Sel", "price": 7, "img": "/images/dishes/pan-tomate.jpg" },
-			{ "id": "jamon-iberico", "name": "Jamón Ibérico", "tag": [], "desc": "36 Monate gereifter Ibérico-Schinken, handgeschnitten, Manchego", "price": 22, "img": "/images/dishes/jamon-iberico.jpg" },
-			{ "id": "croquetas-caseras", "name": "Croquetas Caseras", "tag": [], "desc": "Hausgemachte Bechamel-Kroketten mit Serranoschinken und Käse", "price": 11, "img": "/images/dishes/croquetas-caseras.jpg" },
-			{ "id": "pimientos-padron", "name": "Pimientos de Padrón", "tag": ["vegan"], "desc": "Gegrillte galicische Paprika, Meersalz, Olivenöl", "price": 8, "img": "/images/dishes/pimientos-padron.jpg" }
+		"id": 0, "name": "Tapas", "dishes": [
+			{ "id": "patatas-bravas", "name": "Patatas Bravas", "tags": ["vegan"], "desc": "Knusprige Kartoffeln, scharfe Tomaten-Aioli, geräucherter Paprika", "price": 9, "img": "/images/dishes/patatas-bravas.jpg" },
+			{ "id": "gambas-ajillo", "name": "Gambas al Ajillo", "tags": [], "desc": "Riesengarnelen, Knoblauch, Weißwein, frische Petersilie", "price": 16, "img": "/images/dishes/gambas-ajillo.jpg" },
+			{ "id": "pan-tomate", "name": "Pan con Tomate", "tags": ["vegan"], "desc": "Geröstetes Brot, geriebene Tomaten, Olivenöl extra vergine, Fleur de Sel", "price": 7, "img": "/images/dishes/pan-tomate.jpg" },
+			{ "id": "jamon-iberico", "name": "Jamón Ibérico", "tags": [], "desc": "36 Monate gereifter Ibérico-Schinken, handgeschnitten, Manchego", "price": 22, "img": "/images/dishes/jamon-iberico.jpg" },
+			{ "id": "croquetas-caseras", "name": "Croquetas Caseras", "tags": [], "desc": "Hausgemachte Bechamel-Kroketten mit Serranoschinken und Käse", "price": 11, "img": "/images/dishes/croquetas-caseras.jpg" },
+			{ "id": "pimientos-padron", "name": "Pimientos de Padrón", "tags": ["vegan"], "desc": "Gegrillte galicische Paprika, Meersalz, Olivenöl", "price": 8, "img": "/images/dishes/pimientos-padron.jpg" }
 		]
 	},
 	{
-		"name": "Hauptgerichte", "dishes": [
-			{ "id": "paella-valenciana", "name": "Paella Valenciana", "tag": [], "desc": "Authentische Valencia-Paella mit Hähnchen, Kaninchen, grünen Bohnen und Safran (mind. 2 Personen)", "price": 28, "img": "/images/dishes/paella-valenciana.jpg" },
-			{ "id": "paella-marisco", "name": "Paella de Mariscos", "tag": [], "desc": "Meeresfrüchte-Paella mit Garnelen, Muscheln, Tintenfisch und Safran-Reis", "price": 32, "img": "/images/dishes/paella-marisco.jpg" },
-			{ "id": "cochinillo-asado", "name": "Cochinillo Asado", "tag": [], "desc": "Spanisches Spanferkel aus dem Ofen, Rosmarinkartoffeln, Bratjus", "price": 38, "img": "/images/dishes/cochinillo-asado.jpg" },
-			{ "id": "dorada-sal", "name": "Dorada a la Sal", "tag": [], "desc": "Dorade in der Salzkruste gebacken, Zitronenöl, Gemüse der Saison", "price": 34, "img": "/images/dishes/dorada-sal.jpg" },
-			{ "id": "cordero-chilindron", "name": "Cordero al Chilindrón", "tag": [], "desc": "Lammrücken aus Aragón, Tomaten-Paprika-Sauce, Rosmarinkartoffeln", "price": 36, "img": "/images/dishes/cordero-chilindron.jpg" },
-			{ "id": "berenjena-miel", "name": "Berenjenas con Miel", "tag": ["vegetarisch"], "desc": "Frittierte Auberginen mit Honig und Ziegenkäse, saisonaler Salat", "price": 19, "img": "/images/dishes/berenjenas-miel.jpg" }
+		"id": 1, "name": "Hauptgerichte", "dishes": [
+			{ "id": "paella-valenciana", "name": "Paella Valenciana", "tags": [], "desc": "Authentische Valencia-Paella mit Hähnchen, Kaninchen, grünen Bohnen und Safran (mind. 2 Personen)", "price": 28, "img": "/images/dishes/paella-valenciana.jpg" },
+			{ "id": "paella-marisco", "name": "Paella de Mariscos", "tags": [], "desc": "Meeresfrüchte-Paella mit Garnelen, Muscheln, Tintenfisch und Safran-Reis", "price": 32, "img": "/images/dishes/paella-marisco.jpg" },
+			{ "id": "cochinillo-asado", "name": "Cochinillo Asado", "tags": [], "desc": "Spanisches Spanferkel aus dem Ofen, Rosmarinkartoffeln, Bratjus", "price": 38, "img": "/images/dishes/cochinillo-asado.jpg" },
+			{ "id": "dorada-sal", "name": "Dorada a la Sal", "tags": [], "desc": "Dorade in der Salzkruste gebacken, Zitronenöl, Gemüse der Saison", "price": 34, "img": "/images/dishes/dorada-sal.jpg" },
+			{ "id": "cordero-chilindron", "name": "Cordero al Chilindrón", "tags": [], "desc": "Lammrücken aus Aragón, Tomaten-Paprika-Sauce, Rosmarinkartoffeln", "price": 36, "img": "/images/dishes/cordero-chilindron.jpg" },
+			{ "id": "berenjena-miel", "name": "Berenjenas con Miel", "tags": ["vegetarisch"], "desc": "Frittierte Auberginen mit Honig und Ziegenkäse, saisonaler Salat", "price": 19, "img": "/images/dishes/berenjenas-miel.jpg" }
 		]
 	},
 	{ 
-		"name": "Desserts", "dishes": [
-			{ "id": "crema-catalana", "name": "Crema Catalana", "tag": ["vegetarisch"], "desc": "Katalanische Creme mit karamellisiertem Zucker, Zimt, Zitronenschale", "price": 9, "img": "/images/dishes/crema-catalana.jpg" },
-			{ "id": "churros-chocolate", "name": "Churros con Chocolate", "tag": ["vegan"], "desc": "Hausgemachte Churros mit heißer Schokoladen-Sauce", "price": 10, "img": "/images/dishes/churros-chocolate.jpg" },
-			{ "id": "tarta-santiago", "name": "Tarta de Santiago", "tag": ["vegetarisch"], "desc": "Galizischer Mandelkuchen, Puderzucker-Kreuz, Crème fraîche", "price": 8, "img": "/images/dishes/tarta-santiago.jpg" },
-			{ "id": "flan-huevo", "name": "Flan de Huevo", "tag": ["vegetarisch"], "desc": "Spanische Karamelcreme, Karamellsauce, frische Beeren", "price": 8, "img": "/images/dishes/flan-huevo.jpg" },
-			{ "id": "helado-artesanal", "name": "Helado Artesanal", "tag": ["vegetarisch"], "desc": "Hausgemachtes Eis der Saison (3 Kugeln), Mandelbrösel", "price": 7, "img": "/images/dishes/helado-artesanal.jpg" }
+		"id": 2, "name": "Desserts", "dishes": [
+			{ "id": "crema-catalana", "name": "Crema Catalana", "tags": ["vegetarisch"], "desc": "Katalanische Creme mit karamellisiertem Zucker, Zimt, Zitronenschale", "price": 9, "img": "/images/dishes/crema-catalana.jpg" },
+			{ "id": "churros-chocolate", "name": "Churros con Chocolate", "tags": ["vegan"], "desc": "Hausgemachte Churros mit heißer Schokoladen-Sauce", "price": 10, "img": "/images/dishes/churros-chocolate.jpg" },
+			{ "id": "tarta-santiago", "name": "Tarta de Santiago", "tags": ["vegetarisch"], "desc": "Galizischer Mandelkuchen, Puderzucker-Kreuz, Crème fraîche", "price": 8, "img": "/images/dishes/tarta-santiago.jpg" },
+			{ "id": "flan-huevo", "name": "Flan de Huevo", "tags": ["vegetarisch"], "desc": "Spanische Karamelcreme, Karamellsauce, frische Beeren", "price": 8, "img": "/images/dishes/flan-huevo.jpg" },
+			{ "id": "helado-artesanal", "name": "Helado Artesanal", "tags": ["vegetarisch"], "desc": "Hausgemachtes Eis der Saison (3 Kugeln), Mandelbrösel", "price": 7, "img": "/images/dishes/helado-artesanal.jpg" }
 		]
 	},
 	{ 
-		"name": "Getränke", "dishes": [
-			{ "id": "sangria-roja", "name": "Sangría Roja", "tag": ["vegan"], "desc": "Hausgemachte rote Sangría mit Rotwein, Brandy, Orangen und Zimtstange", "price": 8, "img": "/images/dishes/sangria-roja.jpg" },
-			{ "id": "sangria-blanca", "name": "Sangría Blanca", "tag": ["vegan"], "desc": "Weiße Sangría mit Weißwein, Limette, Minze und Pfirsich", "price": 8, "img": "/images/dishes/sangria-blanca.jpg" },
-			{ "id": "rioja-reserva", "name": "Rioja Reserva", "tag": ["vegan"], "desc": "Tempranillo, Rioja DOCa, 2019 — vollmundig, kirsch, Vanille", "price": 11, "img": "/images/dishes/rioja-reserva.jpg" },
-			{ "id": "albarino", "name": "Albariño", "tag": ["vegan"], "desc": "Rias Baixas, 2022 - frisch, mineralisch, Zitrus, weißer Pfirsich", "price": 9, "img": "/images/dishes/albarino.jpg" },
-			{ "id": "horchata-chufa", "name": "Horchata de Chufa", "tag": ["vegan"], "desc": "Traditionelles valencianisches Erfrischungsgetränk aus Erdmandeln", "price": 5, "img": "/images/dishes/horchata-chufa.jpg" },
-			{ "id": "cafe-solo", "name": "Café Solo / Cortado", "tag": ["vegan"], "desc": "Spanischer Espresso aus biologisch angebautem Arabica", "price": 3, "img": "/images/dishes/cafe-solo.jpg" }
+		"id": 3, "name": "Getränke", "dishes": [
+			{ "id": "sangria-roja", "name": "Sangría Roja", "tags": ["vegan"], "desc": "Hausgemachte rote Sangría mit Rotwein, Brandy, Orangen und Zimtstange", "price": 8, "img": "/images/dishes/sangria-roja.jpg" },
+			{ "id": "sangria-blanca", "name": "Sangría Blanca", "tags": ["vegan"], "desc": "Weiße Sangría mit Weißwein, Limette, Minze und Pfirsich", "price": 8, "img": "/images/dishes/sangria-blanca.jpg" },
+			{ "id": "rioja-reserva", "name": "Rioja Reserva", "tags": ["vegan"], "desc": "Tempranillo, Rioja DOCa, 2019 — vollmundig, kirsch, Vanille", "price": 11, "img": "/images/dishes/rioja-reserva.jpg" },
+			{ "id": "albarino", "name": "Albariño", "tags": ["vegan"], "desc": "Rias Baixas, 2022 - frisch, mineralisch, Zitrus, weißer Pfirsich", "price": 9, "img": "/images/dishes/albarino.jpg" },
+			{ "id": "horchata-chufa", "name": "Horchata de Chufa", "tags": ["vegan"], "desc": "Traditionelles valencianisches Erfrischungsgetränk aus Erdmandeln", "price": 5, "img": "/images/dishes/horchata-chufa.jpg" },
+			{ "id": "cafe-solo", "name": "Café Solo / Cortado", "tags": ["vegan"], "desc": "Spanischer Espresso aus biologisch angebautem Arabica", "price": 3, "img": "/images/dishes/cafe-solo.jpg" }
 		]
 	}
 ]
