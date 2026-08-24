@@ -19,7 +19,7 @@ export default function Navbar() {
 			<div className={(showMenu ? "flex-col items-center md:items-end mt-5 md:mt-0" : "") + " md:flex-1 h-full flex gap-4 "}>
 				<Button onClick={NavbarEvent} className="md:hidden">
                 	{showMenu ? 
-						<FiX className="text-5xl hover:text-accent-1 active:text-red-500 transition" /> :  
+						<FiX className="text-3xl hover:text-accent-1 active:text-red-500 transition" /> :  
 						<FiMenu className="active:text-accent-1" />}   
 				</Button>
 				<div className={(showMenu ? "absolut" : "hidden") + " flex top-0 left-0 z-10 md:z-10 flex-1 md:flex bg-background md:bg-none md:relative md:top-auto md:left-auto transition"}>

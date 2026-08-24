@@ -7,7 +7,7 @@ export default function ButtonSelection({ className = "", onClick = null, childr
 		"text-center text-sm font-light border border-accent-1/20 rounded-xs p-3"
 
 	return (
-		<Button type="click" className={ finalClass } onClick={ onClick }>
+		<Button type="button" className={ finalClass } onClick={ onClick }>
 			{ children }
 		</Button>
 	)

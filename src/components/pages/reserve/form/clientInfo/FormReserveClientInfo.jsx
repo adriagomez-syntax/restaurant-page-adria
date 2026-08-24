@@ -4,9 +4,9 @@ import Input from "../../../../common/utils/Input";
 import TextArea from "../../../../common/utils/TextArea";
 import TitleHighlight from "../../../../common/utils/TitleHighlight";
 
-export default function FormReserveClientInfo({ className = "" }) {
+export default function FormReserveClientInfo({ progress = 0, setProgress = null }) {
 	return (
-		<div className={ className }>
+		<div className={ progress === 1 ? "" : "hidden" }>
 			<div className="flex flex-col gap-6">
 				<div className="flex flex-col gap-2">
 					<TitleHighlight className="text-xs" color="text-text">Vor- und Nachname</TitleHighlight>
@@ -25,8 +25,20 @@ export default function FormReserveClientInfo({ className = "" }) {
 					<TextArea type="text" maxLength="20" placeholder="Ihre Wünsch..." />
 				</div>
 				<div className="flex gap-4 mt-6">
-					<OutlinedButton className="border-text text-text w-full md:w-3xs">Zurück</OutlinedButton>
-					<FilledButton className="bg-accent-2 text-background w-full">Weiter</FilledButton>
+					<OutlinedButton className="border-text text-text w-full md:w-3xs" 
+						onClick={() => {
+							if (setProgress !== null)
+							{ setProgress(progress--) }
+						}}>
+						Zurück
+					</OutlinedButton>
+					<FilledButton className="bg-accent-2 text-background w-full" 
+						onClick={() => {
+							if (setProgress !== null)
+							{ setProgress(progress++) }
+						}}>
+						Weiter
+					</FilledButton>
 				</div>
 			</div>
 		</div>

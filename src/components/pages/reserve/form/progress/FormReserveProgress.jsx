@@ -1,8 +1,7 @@
 import FormReserveProgressNumber from "./FormReserveProgressNumber";
 
-export default function FormReserveProgress() {
+export default function FormReserveProgress({ current = 0 }) {
 	const n = 3;
-	const current = 0;
 	const titles = [
 		"Datum & Zeit",
 		"Ihre Daten",
