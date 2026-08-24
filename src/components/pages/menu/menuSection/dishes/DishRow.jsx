@@ -1,13 +1,15 @@
+import ImgHighlight from "../../../../common/utils/ImgHighlight";
 import TitleHighlight from "../../../../common/utils/TitleHighlight";
 
-export default function DishRow({ index, name, desc, tags, price }) {
+export default function DishRow({ index, img, name, desc, tags, price }) {
 	return (
-		<li className="flex px-4 justify-between items-start md:mx-60 min-h-20 py-8 not-last:border-b-primary not-last:border-b hover:bg-background-mid transition">
-			<div className="flex-1 flex">
+		<li className="flex px-4 justify-between items-start min-h-20 py-8 not-last:border-b-primary not-last:border-b hover:bg-background-mid transition">
+			<div className="flex-1 flex gap-4">
+				<ImgHighlight src={ img } alt={ name } className="size-32 bg-background-mid rounded-xs object-cover" />
 				<TitleHighlight className="font-secondary">
 					{index.toString().padStart(2, 0)}
 				</TitleHighlight>
-				<div className="px-6">
+				<div className="flex-1 pr-6">
 					<div className="flex gap-4 flex-wrap">
 						<h3 className="font-secondary font-light text-2xl">
 							{ name }
