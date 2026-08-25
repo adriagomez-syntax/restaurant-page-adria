@@ -1,29 +1,32 @@
+import { useRef } from "react";
 import FilledButton from "../../../../common/utils/button/FilledButton";
 import OutlinedButton from "../../../../common/utils/button/OutlinedButton";
-import Input from "../../../../common/utils/Input";
-import TextArea from "../../../../common/utils/TextArea";
-import TitleHighlight from "../../../../common/utils/TitleHighlight";
+import FormReserveClientInfoInput from "./FormReserveClientInfoInput";
 
 export default function FormReserveClientInfo({ progress = 0, setProgress = null }) {
+	
+	const nameRef = useRef(null);
+	const telefonRef = useRef(null);
+	const emailRef = useRef(null);
+	const wishRef = useRef(null);
+
+	function onNext() {
+		if (nameRef.current.value === "") { return }
+		if (telefonRef.current.value === "") { return }
+		if (emailRef.current.value === "") { return }
+		if (wishRef.current.value === "") { return }
+
+		if (setProgress !== null)
+		{ setProgress(progress++) }
+	}
+	
 	return (
 		<div className={ progress === 1 ? "" : "hidden" }>
 			<div className="flex flex-col gap-6">
-				<div className="flex flex-col gap-2">
-					<TitleHighlight className="text-xs" color="text-text">Vor- und Nachname</TitleHighlight>
-					<Input type="text" maxLength="20" name="name" placeholder="Maria Musstermann" />
-				</div>
-				<div className="flex flex-col gap-2">
-					<TitleHighlight className="text-xs" color="text-text">Telefonnummer</TitleHighlight>
-					<Input type="tel" maxLength="14" name="phone" placeholder="+49 170 123 456 78" />
-				</div>
-				<div className="flex flex-col gap-2">
-					<TitleHighlight className="text-xs" color="text-text">E-Mail-Adresse</TitleHighlight>
-					<Input type="email" maxLength="50" name="email" placeholder="maria@beispiel.de" />
-				</div>
-				<div className="flex flex-col gap-2">
-					<TitleHighlight className="text-xs" color="text-text">Besondere Wünsche (Optional)</TitleHighlight>
-					<TextArea type="text" maxLength="20" placeholder="Ihre Wünsch..." />
-				</div>
+				<FormReserveClientInfoInput title="Vor- und Nachname" type="text" maxLength="20" name="name" placeholder="Maria Musstermann" ref={ nameRef } />
+				<FormReserveClientInfoInput title="Telefonnummer" type="tel" maxLength="14" name="phone" placeholder="+49 170 123 456 78" ref={ telefonRef } />
+				<FormReserveClientInfoInput title="E-Mail-Adresse" type="email" maxLength="50" name="email" placeholder="maria@beispiel.de" ref={ emailRef } />
+				<FormReserveClientInfoInput title="Besondere Wünsche (Optional)" textarea={ true } name="wish" maxLength="20" placeholder="Ihre Wünsch..." ref={ wishRef } />
 				<div className="flex gap-4 mt-6">
 					<OutlinedButton className="border-text text-text w-full md:w-3xs" 
 						onClick={() => {
@@ -33,10 +36,7 @@ export default function FormReserveClientInfo({ progress = 0, setProgress = null
 						Zurück
 					</OutlinedButton>
 					<FilledButton className="bg-accent-2 text-background w-full" 
-						onClick={() => {
-							if (setProgress !== null)
-							{ setProgress(progress++) }
-						}}>
+						onClick={ onNext }>
 						Weiter
 					</FilledButton>
 				</div>

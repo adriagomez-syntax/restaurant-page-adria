@@ -9,14 +9,19 @@ import { useState } from "react";
 export default function FormReserveSection() {
 	
 	const [progress, setProgress] = useState(0);
+
+	function onFormSubmit(event)
+	{
+		event.preventDefault()
+	}
 	
 	return (
 		<SectionWidth classNameParent="bg-background py-16" className="w-full flex justify-center items-center">
-			<form className={(progress >= 3 ? "hidden" : "") + " w-full md:w-[40vw]"}>
-				<FormReserveProgress current={ progress } />
-				<FormReserveDate current={ progress } setProgress={ setProgress } />
-				<FormReserveClientInfo current={ progress } setProgress={ setProgress } />
-				<FormReserveConfirm current={ progress } setProgress={ setProgress } />
+			<form onSubmit={ onFormSubmit } className={(progress >= 3 ? "hidden" : "") + " w-full md:w-[40vw]"}>
+				<FormReserveProgress progress={ progress } />
+				<FormReserveDate progress={ progress } setProgress={ setProgress } />
+				<FormReserveClientInfo progress={ progress } setProgress={ setProgress } />
+				<FormReserveConfirm progress={ progress } setProgress={ setProgress } />
 			</form>
 			<FormReserveFinish current={ progress } setProgress={ setProgress } />
 		</SectionWidth>

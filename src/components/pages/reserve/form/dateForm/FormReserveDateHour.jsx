@@ -2,7 +2,7 @@ import ButtonSelection from "../../../../common/utils/button/ButtonSelection";
 import TitleHighlight from "../../../../common/utils/TitleHighlight";
 import reserveHours from "../../../../../assets/data/reserveHours.json" with { type: 'json' }
 
-export default function FormReserveDateHour() {
+export default function FormReserveDateHour({ setHour = null }) {
 	return (
 		<div className="flex flex-col gap-2">
 			<TitleHighlight className="text-text text-sm">Uhrzeit</TitleHighlight>
@@ -10,7 +10,7 @@ export default function FormReserveDateHour() {
 				{
 					reserveHours.map((hour, index) => (
 						<li key={ index }>
-							<ButtonSelection className="w-full">{ hour.hour }</ButtonSelection>
+							<ButtonSelection onClick={() => setHour(hour.hour) } className="w-full">{ hour.hour }</ButtonSelection>
 						</li>
 					))
 				}
