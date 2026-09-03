@@ -32,14 +32,13 @@ export default function MenuSection({ selected = 0 }) {
 					</div>
 				</div>
 			</div>
-			{typeof(menu[selected]) !== "undefined" ?
+			{typeof(menu[selected]) !== "undefined" &&
 				<>
 					<DishList category={ selected } data={ menu[selected].dishes } 
 						className={option === 0 ? "" : "hidden"} />
 					<DishGrid category={ selected} data={ menu[selected].dishes } 
 						className={option === 1 ? "" : "hidden"} />
 				</>
-				: ""
 			}
 			<MenuTaxes />
 		</section>
